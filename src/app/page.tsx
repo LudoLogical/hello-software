@@ -1,10 +1,11 @@
-import Sample from '~/content/sample.mdx';
+import Sample from '~/lessons/1x01.mdx';
 
-export default function HomePage() {
+export default function Home() {
   return (
     <>
-      <p>hi</p>
-      <Sample />
+      <div className="prose mx-auto py-24 prose-a:font-bold prose-a:text-secondary prose-a:no-underline prose-strong:font-extrabold">
+        <Sample />
+      </div>
     </>
   );
 }

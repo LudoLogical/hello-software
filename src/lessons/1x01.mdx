@@ -1,0 +1,20 @@
+import Transistor from "~/app/components/transistor.tsx";
+import Hint from "~/app/components/helpers/hint.tsx"
+
+# Electron Says "Turn On"
+
+Here's a question you've probably never asked: how do computers compute things?
+
+Some people might answer by explaining that computers follow a very long list of very simple instructions that humans give them, but that response sparks more questions than it answers.
+
+For one thing, how can the computer *understand* our instructions? We've all seen how flipping a light switch can turn a light on, but people communicate with words, not switches! Also, even if we accept that computers *can* parse what we tell them to do, we aren't any closer to knowing how they actually *do* it.
+
+To really understand what makes computers work, we need to open one up and zoom in a few hundred-thousand times to get a good look at a piece of silicon that's only [a handful of nanometers in size](https://www.waferworld.com/post/how-small-can-transistors-get). It's called a **transistor**.
+
+There are [billions](https://robots.net/tech/how-many-transistors-in-a-cpu/) of these things inside a single modern computer, and it's been estimated that over [10 sextillion](https://www.waferworld.com/post/how-many-transistors-are-there-in-the-world) (that's 10,000,000,000,000,000,000,000) of them have been made since they were invented less than 100 years ago. So, what makes transistors so important? How can something so small process information?
+
+<Transistor version="basic" />
+
+This is a diagram of what the inside of a transistor <Hint>This particular transistor is an enhancement-type N-channel MOSFET.</Hint> might look like. The yellow regions have a small negative electric charge and the blue region has a small positive electric charge. <Hint>Ordinarily, silicon is electrically neutral, but for use in transistors, it is altered through special processes called "N-type doping" (for the yellow regions) and "P-type doping" (for the blue region).</Hint>
+
+You might remember from one of your science classes that negative charge occurs when there are extra electrons and positive charge occurs when there aren't enough, so let's add some electrons and empty spaces where electrons want to go to our diagram.
