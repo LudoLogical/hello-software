@@ -18,7 +18,7 @@ function Electron({
         positioning
       )}
     >
-      {isHole ? '+' : '-'}
+      <span className="-mt-0.5">{isHole ? '+' : '-'}</span>
     </div>
   );
 }
